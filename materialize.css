@@ -8486,10 +8486,19 @@ input[type=range]::-ms-thumb {
   visibility: visible;
   -webkit-animation: pulse-animation 1s cubic-bezier(0.24, 0, 0.38, 1) infinite;
           animation: pulse-animation 1s cubic-bezier(0.24, 0, 0.38, 1) infinite;
-  -webkit-transition: opacity .3s, visibility 0s 1s, -webkit-transform .3s;
-  transition: opacity .3s, visibility 0s 1s, -webkit-transform .3s;
-  transition: opacity .3s, transform .3s, visibility 0s 1s;
-  transition: opacity .3s, transform .3s, visibility 0s 1s, -webkit-transform .3s;
+  -webkit-transition: opacity .3s,
+ visibility 0s 1s,
+ -webkit-transform .3s;
+  transition: opacity .3s,
+ visibility 0s 1s,
+ -webkit-transform .3s;
+  transition: opacity .3s,
+ transform .3s,
+ visibility 0s 1s;
+  transition: opacity .3s,
+ transform .3s,
+ visibility 0s 1s,
+ -webkit-transform .3s;
 }
 
 .tap-target {
@@ -8542,10 +8551,19 @@ input[type=range]::-ms-thumb {
 
 .tap-target-wave::after {
   visibility: hidden;
-  -webkit-transition: opacity .3s, visibility 0s, -webkit-transform .3s;
-  transition: opacity .3s, visibility 0s, -webkit-transform .3s;
-  transition: opacity .3s, transform .3s, visibility 0s;
-  transition: opacity .3s, transform .3s, visibility 0s, -webkit-transform .3s;
+  -webkit-transition: opacity .3s,
+ visibility 0s,
+ -webkit-transform .3s;
+  transition: opacity .3s,
+ visibility 0s,
+ -webkit-transform .3s;
+  transition: opacity .3s,
+ transform .3s,
+ visibility 0s;
+  transition: opacity .3s,
+ transform .3s,
+ visibility 0s,
+ -webkit-transform .3s;
   z-index: -1;
 }
 
@@ -9064,4 +9082,115 @@ input[type=range]::-ms-thumb {
     text-align: center;
     margin-top: 1.2rem;
   }
+}
+
+
+
+
+
+
+
+.dropdown-content{
+  width: max-content !important;
+  height:auto !important;
+}
+
+
+
+
+nav {
+  background-color: #228B22;
+  
+}
+
+.para {
+  display: flex;
+  width: 40%;
+  padding: 1%;
+  margin-left: 30%;
+}
+
+.banner {
+  background-image: url("backgroundfood.png");
+  background-size: cover;
+  background-position: bottom center;
+  height: 700px;
+  width: 100%;
+}
+
+.ecoeat {
+  text-align: center;
+  top: 50px;
+  width: 400px;
+  margin: 0 auto;
+  position: relative;
+  font-family: 'Segoe UI';
+
+
+}
+
+.text-title {
+  color: green;
+}
+
+.text-descriptiona {
+  margin-top: 20%;
+
+}
+
+.text-descriptionb {
+  margin-top: 20%;
+
+}
+
+.text-descriptionc {
+  margin-top: 20%;
+
+}
+
+.text-descriptiond {
+  margin-top: 20%;
+
+}
+
+.bgp {
+
+  background-image: url("pexels-dapur-melodi-192125-1109197.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%; 
+  height: auto;
+  
+}
+
+.para A {
+  background-color: green;
+}
+.para {
+  color: white;
+  background: rgba(51, 170, 51, .4);
+  opacity: 0,8;
+  border-radius: 20px;
+  
+}
+
+#comment {
+
+  display: flex;
+  width: 40%;
+  padding: 1%;
+  margin-left: 30%;
+
+
+}
+
+
+#sectionform {
+
+  display: flex;
+  width: 40%;
+  padding: 1%;
+  margin-left: 30%;
+
+
 }

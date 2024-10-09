@@ -7043,9 +7043,11 @@ $jscomp.polyfill = function (e, r, p, m) {
   };
 
   $(document).ready(function () {
+     
+   
     // Text based inputs
     var input_selector = 'input[type=text], input[type=password], input[type=email], input[type=url], input[type=tel], input[type=number], input[type=search], input[type=date], input[type=time], textarea';
-
+    
     // Add active if form auto complete
     $(document).on('change', input_selector, function () {
       if (this.value.length !== 0 || $(this).attr('placeholder') !== null) {
@@ -12372,3 +12374,35 @@ $jscomp.polyfill = function (e, r, p, m) {
 
   Range.init($('input[type=range]'));
 })(cash, M.anime);
+
+
+
+
+var dropdowns = document.querySelectorAll('.dropdown-trigger')
+for (var i = 0; i < dropdowns.length; i++){
+    M.Dropdown.init(dropdowns[i]);
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+  var elems = document.querySelectorAll('.carousel');
+  var instances = M.Carousel.init(elems, options);
+});
+
+$(document).ready(function(){
+  $('.carousel').carousel();
+});
+
+document.addEventListener('DOMContentLoaded', function() {
+  var elems = document.querySelectorAll('.slider');
+  var instances = M.Slider.init(elems);
+});
+
+
+document.addEventListener('DOMContentLoaded', function() {
+  var elems = document.querySelectorAll('.collapsible');
+  var instances = M.Collapsible.init(elems, options);
+});
+
+$(document).ready(function(){
+  $('.collapsible').collapsible();
+});

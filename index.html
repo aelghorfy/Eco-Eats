@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+      <!--Importer Google Icon Font et icons-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=shopping_cart_checkout" />
+      <!--link de materialize.css-->
+      <link type="text/css" rel="stylesheet" href="materialize.css"  media="screen,projection"/>
+
+      <!--optimisation du site pour mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <title>Eco eats</title>
+    </head>
+
+    <body>
+
+        <!-- Bar de navigation -->
+         <header class="navbar-fixed">
+            <ul id="dropdown" class="dropdown-content">
+                <li><a href="#apropos">À propos</a></li>
+                <li class="divider"></li>
+                <li><a href="#menu">Menu</a></li>
+                <li class="divider"></li>
+                <li><a href="#comment">Comment ça marche ?</a></li>
+              </ul>
+              <nav>
+                
+                <div class="nav-wrapper">
+                  <a href="#!" class="brand-logo">
+                    <img src="logoEcoEats.jpg" alt="brand-logo" width="64" height="64">
+                  </a>
+                  <ul class="right hide-on-med-and-down">
+                    <li><a href="#">Souscrire</a></li>
+                    <li><a href="#">Nous contactez</a></li>
+                    <!-- Dropdown Trigger -->
+                    <li><a class="dropdown-trigger" href="#!" data-target="dropdown">Navigation<i class="material-icons right">arrow_drop_down</i></a></li>
+                  </ul>
+                </div>
+              </nav>
+         </header>
+
+         <main>
+
+            <!-- Premiere page -->
+            <div class="banner">
+            <article class="ecoeat">
+              <h2 class="text-title">Eco eats</h2>
+              <p class="text-descriptiona">Votre alimentation saine, directement à domicile.</p>
+              <p class="text-descriptionb">Rejoignez notre communauté et adoptez une alimentation sousieuse de l'environnement, sans effort.</p>
+              <p class="text-descriptionc">Commandez maintenant et bénéficiez de votre première livraison gratuite !</p>
+              <P class="text-descriptiond">Un doute ? une question ? </P>
+
+              <!-- bouton contact -->
+              <a class="waves-effect waves-light btn"  href="#sectionform">Contact</a>
+
+            </article>
+            </div>
+
+
+            <div class="divider"></div>
+            
+            <section id="apropos">
+                <h5>À propos</h5>
+            <!-- section a propos -->
+
+            <div class="sectionP">
+                <section class="bgp">
+                     
+                      <div class="flow-text">
+                         <div class="fondnoir">
+                           <p class="para A">
+                            Chez Eco eats, nous croyons en l'importance d'une alimentation saine et durable. <br>
+                            Notre service de livraison de repas bio vous permet de savourer des plats délicieux, 
+                               préparés avec des ingrédients frais et de saison, tout en respectant l'environnement. <br> 
+
+    
+                            </p>
+
+                        <p class="para B">
+                         Eco eats vous certifie un respect de l’environnement optimal car nous sommes fiers d'utiliser des drones pour nos livraisons, réduisant ainsi notre empreinte carbone et optimisant les trajets.<br> 
+                         En combinant innovation et passion pour la cuisine, nous nous engageons à offrir une expérience de repas pratique et éco-responsable. <br>
+                        </p>
+
+                        <p class="para C">
+                         Chaque semaine, nous sélectionnons des recettes qui raviront vos papilles, tout en préservant votre bien-être. <br>
+                         Découvrez une variétés d'aliments équilibrée, livrée directement à votre porte avec un impact minimal sur notre planète. <br>
+                        </p>
+                        </div>
+                      </div>
+                </section>
+    
+            </div>
+         </section>
+
+  <div class="divider"></div>
+
+ 
+  <section id="menu">
+
+  <div class="section">
+     <!-- section menu -->
+    <h3>MENU</h3>
+    <h5>Notre selection</h5>
+    <!-- images defilantes menu -->
+        <div class="slider">
+          <ul class="slides">
+            <li>
+              <img src="Udon.jpg" alt="platudon">
+              <article class="caption left-align">
+                <h3>Udon aux Crevettes</h3>
+                <h5 class="light"> Des nouilles udon épaisses et moelleuses,
+                     accompagnées de crevettes juteuses sautées dans une sauce soja savoureuse,
+                      le tout rehaussé de légumes croquants comme des carottes et des oignons verts.
+                       Un plat réconfortant qui allie textures et saveurs.</h5>
+                       <h4 class="light">12 €</h4>
+              </article>
+            </li>
+            <li>
+              <img src="Dumplin.jpg" alt="souperavioli">
+              <article class="caption left-align">
+                <h3> Bouillon de ravioli (Suan Tang Shui Jiao)</h3>
+                <h5 class="light"> Un bouillon chaud et parfumé, rempli de ravioli faits maison, 
+                    farcis de viande et de légumes frais. Servi avec des herbes aromatiques, 
+                    ce plat est parfait pour les amateurs de saveurs réconfortantes et authentiques.</h5>
+                    <h4 class="light">13,50 €</h4>
+              </article>
+            </li>
+            <li>
+              <img src="phò.jpg" alt="Phở">
+              <article class="caption left-align">
+                <h3>Phở</h3>
+                <h5 class="light">Une délicieuse soupe vietnamienne, riche en saveurs, avec des nouilles de riz,
+                    des morceaux de viande tendre (bœuf, poulet, option vegan), et garnie de basilic frais, de citron vert,
+                     et de piments. Un plat emblématique qui réchauffe le cœur.</h5>
+                     <h4 class="light">11,50 €</h4>
+              </article>
+            </li>
+            <li>
+                <img src="Pates.jpg" alt="rizsauté">
+                <article class="caption left-align">
+                  <h3>Riz Sauté aux légumes de saisons</h3>
+                  <h5 class="light"> Un plat de riz sauté vibrant, préparé avec des legumes locaux de saisons 
+                    assaisonné d'une touche de sauce soja. C'est un choix léger et nutritif, parfait pour un repas équilibré.</h5>
+                    <h4 class="light">9,50 €</h4>
+                </article>
+                <li>
+                    <img src="Salade.jpg" alt="saladecomposer">
+                    <article class="caption left-align">
+                      <h3>Salade avec Pastrami de Bœuf et Parmesan Râpé</h3>
+                      <h5 class="light">Une salade croquante garnie de pastrami de bœuf savoureux, 
+                        de légumes frais de saison, et surmontée de parmesan râpé pour une touche de richesse.
+                         Cette combinaison délicieuse fait de ce plat une option à la fois légère et nourrissante.</h5>
+                         <h4 class="light">9,00 €</h4>
+                    </article>
+                  </li>
+          </ul>  
+  </div>
+</div>
+  </section>
+
+  <div class="divider"></div>
+  <section id="comment">
+    
+  <div class="section">
+    <h5>Comment ça fonctionne ?</h5>
+
+    <ul class="collapsible">
+        <li>
+          <div class="collapsible-header"><i class="material-icons">filter_drama</i><strong>Passer une commande :</strong></div>
+          <div class="collapsible-body"><span>Tout commence par une simple commande sur notre application ou site web. Sélectionnez vos produits, finalisez votre panier et choisissez l'option de livraison par drone.</span></div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="material-icons">place</i><strong>Préparation de la commande :</strong></div>
+          <div class="collapsible-body"><span>Une fois la commande confirmée, notre équipe prépare soigneusement votre colis. Cela inclut l'emballage des articles avec des matériaux sécurisés pour assurer leur protection pendant le vol.</span></div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="material-icons"></i><strong>Planification du vol :</strong></div>
+          <div class="collapsible-body"><span>Nos systèmes intelligents analysent l'itinéraire optimal pour la livraison. Nous prenons en compte divers facteurs, notamment la distance, la météo et les réglementations aériennes.</span></div>
+        </li>
+        <li>
+            <div class="collapsible-header"><i class="material-icons">whatshot</i><strong>Décollage et navigation :</strong></div>
+            <div class="collapsible-body"><span>Une fois tout prêt, le drone décolle et suit l'itinéraire planifié. Grâce à une technologie de pointe, il navigue de manière autonome, en évitant les obstacles et en respectant les zones aériennes réglementées.</span></div>
+          </li>
+          <li>
+            <div class="collapsible-header"><i class="material-icons">whatshot</i><strong>Livraison au client :</strong></div>
+            <div class="collapsible-body"><span>À l'arrivée, le drone atterrit en toute sécurité à l'emplacement désigné par le client. Le colis est ensuite déposé de manière sécurisée, souvent dans une zone de réception spécifiée, comme un jardin ou un balcon.</span></div>
+          </li>
+          <li>
+            <div class="collapsible-header"><i class="material-icons">whatshot</i><strong>Confirmation de livraison :</strong></div>
+            <div class="collapsible-body"><span>Une notification est envoyée au client pour confirmer que la livraison a été effectuée avec succès. Vous pouvez alors récupérer votre commande facilement et rapidement.</span></div>
+          </li>
+      </ul>
+                    
+  </div>
+</section>
+
+  <div class="divider"></div>
+  <div id="sectionform">
+    <h5>Formulaire de contact</h5>
+    <p>Pour les questions ou les demandes de devis</p>
+  </div>
+
+         </main>
+
+         <footer>
+            <div class="card-panel green darker-2">
+                <P> Liens vers des pages secondaires, mentions légales, et réseaux sociaux</P>
+            </div>
+         </footer>
+
+      <!--JavaScript at end of body for optimized loading-->
+      <script src="materialize.js"></script>
+    </body>
+  </html>

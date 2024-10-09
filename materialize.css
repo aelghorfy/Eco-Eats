@@ -9133,25 +9133,15 @@ nav {
   color: green;
 }
 
-.text-descriptiona {
-  margin-top: 20%;
-
-}
-
-.text-descriptionb {
-  margin-top: 20%;
-
-}
-
-.text-descriptionc {
-  margin-top: 20%;
-
-}
-
+.text-descriptiona,
+.text-descriptionb,
+.text-descriptionc,
 .text-descriptiond {
-  margin-top: 20%;
+  margin-top: 10%;
+  font-size: 18px;
 
 }
+
 
 .bgp {
 
@@ -9184,18 +9174,25 @@ nav {
 
 }
 
-.contacter,
-.menu1,
-.propos1,
-.comment1 {
+#contacter,
+#menu1,
+#propos1,
+#comment1 {
   text-align: center;
   color: green;
 }
 #formulaire1 {
 
  margin-left: 10%;
-
-  
-
 }
 
+
+.mentionleg {
+
+  text-align: center;
+  
+}
+
+a {
+  color: darkgreen;
+}

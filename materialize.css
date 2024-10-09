@@ -9131,13 +9131,14 @@ nav {
 
 .text-title {
   color: green;
+
 }
 
 .text-descriptiona,
 .text-descriptionb,
 .text-descriptionc,
 .text-descriptiond {
-  margin-top: 10%;
+  margin-top: 3%;
   font-size: 18px;
 
 }

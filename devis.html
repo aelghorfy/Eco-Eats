@@ -17,6 +17,7 @@
     </head>
 
     <body>
+        <main>
 
          <!-- Bar de navigation -->
          <header class="navbar-fixed">
@@ -24,7 +25,7 @@
                 
                 <div class="nav-wrapper">
                   <a href="#!" class="brand-logo">
-                    <img src="logoEcoEats.jpg" alt="brand-logo" width="64" height="64">
+                    <img src="images/logoEcoEats.jpg" alt="brand-logo" width="64" height="64">
                   </a>
                   <ul class="right hide-on-med-and-down">
                     <li><a href="index.html">Revenir à l'accueil</a></li>
@@ -67,14 +68,14 @@
                   <div class="row">
                     <label for="select">Selectionner une option :</label>
                        <select class="browser-default" required>
-                              <option value="" disabled selected></option>
-                              <option value="1">Livraisons par jours (petit déjeuner, déjeuner, diner) </option>
-                              <option value="2">Livraisons par journées (Journées/planning à spécifier dans la section commentaire)</option>
-                              <option value="3">Livraisons hébdomadaires (sauf le dimanche)</option>
-                              <option value="4">Livraisons mensuelles</option>
-                              <option value="5">Autre...(spécifier dans la section commentaire)</option>
+                              <option value="1" disabled selected>__</option>
+                              <option value="2">Livraisons par jours (petit déjeuner, déjeuner, diner) </option>
+                              <option value="3">Livraisons par journées (Journées/planning à spécifier dans la section commentaire)</option>
+                              <option value="4">Livraisons hébdomadaires (sauf le dimanche)</option>
+                              <option value="5">Livraisons mensuelles</option>
+                              <option value="6">Autre...(spécifier dans la section commentaire)</option>
                         </select>
-        
+                  </div>
                         <div class="row">
                             <div class="input-field col s12">
                               <input id="objet" type="text" class="validate" required>
@@ -97,9 +98,6 @@
                                       <i class="material-icons right">send</i>
                                  </button>
                                    </div>
-                                 </div>
-                               </div>
-                             </form>
                           </div>
         
             </section>

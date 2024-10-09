@@ -9111,7 +9111,7 @@ nav {
 }
 
 .banner {
-  background-image: url("backgroundfood.png");
+  background-image: url("/images/backgroundfood.png");
   background-size: cover;
   background-position: bottom center;
   height: 700px;
@@ -9146,7 +9146,7 @@ nav {
 
 .bgp {
 
-  background-image: url("pexels-dapur-melodi-192125-1109197.jpg");
+  background-image: url("images/pexels-dapur-melodi-192125-1109197.jpg");
   background-size: cover;
   background-position: center;
   width: 100%; 

@@ -12418,3 +12418,12 @@ $(document).ready(function(){
   $('select').formSelect();
 });
       
+document.addEventListener('DOMContentLoaded', function() {
+  // Initialize Dropdown
+  var dropdowns = document.querySelectorAll('.dropdown-trigger');
+  M.Dropdown.init(dropdowns, {hover: false, coverTrigger: false});
+
+  // Initialize Sidenav
+  var sidenavs = document.querySelectorAll('.sidenav');
+  M.Sidenav.init(sidenavs);
+});

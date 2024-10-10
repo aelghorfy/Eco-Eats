@@ -9101,6 +9101,7 @@ input[type=range]::-ms-thumb {
 nav {
   background-color: #228B22;
   
+  
 }
 
 .para {
@@ -9196,4 +9197,8 @@ nav {
 
 a {
   color: darkgreen;
+}
+
+nav {
+  width: 100%;
 }

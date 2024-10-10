@@ -20,29 +20,41 @@
     <body>
 
         <!-- Bar de navigation -->
-         <header class="navbar-fixed">
+        <header class="navbar-fixed">
+            <nav>
+              <div class="nav-wrapper">
+                <a href="#!" class="brand-logo">
+                  <img src="images/logoEcoEats.jpg" alt="brand-logo" width="64" height="64">
+                </a>
+                <!-- menu Hamburger mobile -->
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                  <li><a href="#">Accueil</a></li>
+                  <li><a href="devis.html">S'abonner</a></li>
+                  <!-- Dropdown Trigger -->
+                  <li><a class="dropdown-trigger" href="#!" data-target="dropdown">Navigation<i class="material-icons right">arrow_drop_down</i></a></li>
+                </ul>
+              </div>
+            </nav>
+          
+            <!-- Dropdown Content -->
             <ul id="dropdown" class="dropdown-content">
-                <li><a href="#propos1">À propos</a></li>
-                <li class="divider"></li>
-                <li><a href="#menu1">Notre sélection</a></li>
-                <li class="divider"></li>
-                <li><a href="#comment1">Comment ça marche ?</a></li>
-              </ul>
-              <nav>
-                
-                <div class="nav-wrapper">
-                  <a href="#!" class="brand-logo">
-                    <img src="images/logoEcoEats.jpg" alt="brand-logo" width="64" height="64">
-                  </a>
-                  <ul class="right hide-on-med-and-down">
-                    <li><a href="#">Accueil</a></li>
-                    <li><a href="devis.html">S'abonner</a></li>
-                    <!-- Dropdown Trigger -->
-                    <li><a class="dropdown-trigger" href="#!" data-target="dropdown">Navigation<i class="material-icons right">arrow_drop_down</i></a></li>
-                  </ul>
-                </div>
-              </nav>
-         </header>
+              <li><a href="#propos1">À propos</a></li>
+              <li class="divider"></li>
+              <li><a href="#menu1">Notre sélection</a></li>
+              <li class="divider"></li>
+              <li><a href="#comment1">Comment ça marche ?</a></li>
+            </ul>
+          </header>
+          
+          <!-- Sidenav pour Mobile -->
+          <ul class="sidenav" id="mobile-demo">
+            <li><a href="#">Accueil</a></li>
+            <li><a href="devis.html">S'abonner</a></li>
+            <li><a href="#propos1">À propos</a></li>
+            <li><a href="#menu1">Notre sélection</a></li>
+            <li><a href="#comment1">Comment ça marche ?</a></li>
+          </ul>
 
          <main>
 
